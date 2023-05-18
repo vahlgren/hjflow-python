@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+from hjflow import HJFlow
+
+hjflow_options = {
+    "program_name": "hf_demo",
+    "program_description": "Simple demo program for HJFlow",
+    "program_version": "0.1",
+}
+
+hjflow = HJFlow(hjflow_options)
+
+hjflow.run()
+
